@@ -15,7 +15,7 @@ function GoalInput(props) {
     <View style={styles.inputContainer}>
       <TextInput
         style={styles.textInput}
-        placeholder="Your Course goal!"
+        placeholder="Enter your course goal!"
         onChangeText={goalInputHandler}
         value={enteredGoalText}
       />
@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
     borderBottomColor: "#cccccc",
   },
   textInput: {
-    borderWidth: 1,
+    borderWidth: 2,
     borderColor: "#cccccc",
     width: "70%",
     marginRight: 10,
